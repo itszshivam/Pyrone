@@ -71,19 +71,12 @@ ONE_WORDS = ["MADARCHOD", "TUJHE", "PELTA", "HU", "BAAP", "SE", "BHIR", "GYA NA"
            "AUR","TERI MAA","KO","RANDI","BANA","DUNGA","BHAG","JAA","YAHAN","SE","BHOSDIKE","NAHI TOH","TERI","MAIYA","FIR",
            "SE", "CHUDEGI", "SUAR","KEE","CHODE", "TERI","MAAA",
            "CHODU","SUAR","KEEE","PILEE","TERIII","MAAA","DAILYY","CHUDTTI","HAII","MADHARCHOD","AUR","TERI",
-           "MAA","150","MEIN","BIK","JAATI","HAI","KAA","CHUD", "GAYA", "BACCHA", "BAAP SE",
-           "AUKAT ME", "RAHO", "WARNA", "MAA CHOD DENGE TUMARI","BHOSDAA","MARUU","MADHARCHOD","TERI ","NANAI","KAA",
-           "CHUTT","MARU","TERII","BEHEN","KAAA","BHOSDAA","MARU","RANDII","KEEE","CHODE","TERI","DADI","KAAA","BOOR",
-           "GARAM","KARR","TERE","PUREE","KHANDAN","KOOO","CHODUNGAA","BAAP","SEE","BAKCHODI","KAREGAA","SUARR",
-           "KEEE","PILLEE","NAAK","MEEE","NETAA","BAAP","KOO","KABHII","NAAH","BOLNAA","BETAA","CHUSS","LEEE",
-           "MERAA","LODAA","JAISE","ALUU","KAAA","PAKODAA","TERI","MAAA","BEHEN","GFF","NANI","DIIN","RAAT","SOTEE",
-           "JAGTEE","PELTAA","HUUU","LODEE","CHAAR","CHAWNII","GHODEE","PEEE","TUMM","MEREE","LODEE","PEE","TERI",
-           "MAA","KAAA","BOOBS","DABATA HU", "TERA", "BAAP", "HU", "KIDXX", "SPEED", "PAKAD", "BHEN KE LAUDE",
-           "AA BETA", "AAGYA", "TERI", "MAA ", "CHODNE",
-           "AB", "TERI ", "MAA", "CHUDEGI", "KUTTE", "KI", "TARAH", "BETA", "TERI", "MAA", "KE", "BHOSDE",
-           "ME", "JBL", "KE", "SPEAKER", "DAAL", "KAR", "BASS", "BOOSTED", "SONG", "SUNUNGA", "PURI",
-           "RAAT", "LAGATAR", "TERI", "MAA", "KE", "SATH", "SEX", "KARUNGA🔥", "CHUD", "GAYA", "BACCHA", "BAAP SE",
-           "AUKAT ME", "RAHO", "WARNA", "MAA CHOD DENGE TUMARI"]
+           "MAA","150","MEIN","BIK","JAATI","AUR","TERI","BHEN", "KE", "TIGHT", "CHUT KO",
+           "CHOD CHOD", "KAR", "LOOSE", "KAR DUNGA","AUR","TERI","MAA KE","CHUT MEIN","HAATHI","KAA",
+           "LUND","DAAL","DUNGA","BEHEN","KE","LAURE","TU","SAALE","KUTTE","KE","CHODE","INSAAAN","TERI","LULLI",
+           "KUTTE","SE BHI","CHHOTI","SMJHA NA","MADHARCHOD","BAAP SE","BAKCHODI","NAHI","SHIVAM","TERA BAAP","SPEED","PAKAR",
+           "MERI","BHEN KE","LAURE","CHUD","GYA","NA","BETA","APNE BAAP","SE BAKCHODI","KABHI","NAHI","KARTE","SMJHA",
+           "NA","BACCHA","AUKAAT ME","RAHO","WARNA","KHANDAN","CHOD","DENGE","TUMHARI"]
 
 
 async def pyrone(client: Client, message: Message):
@@ -110,24 +103,24 @@ async def restart(_, __):
 # ADDING HANDLERS
 
 if M1:
-    M1.add_handler(MessageHandler(pyrone, filters.command(["T3RI", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
-    M1.add_handler(MessageHandler(restart, filters.command(["XD", "FARAR", "STOP", "FUCKED"], prefixes=None) & filters.me))
+    M1.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
+    M1.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
 
 if M2:
-    M2.add_handler(MessageHandler(pyrone, filters.command(["T3RI", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
-    M2.add_handler(MessageHandler(restart, filters.command(["XD", "FARAR", "STOP", "FUCKED"], prefixes=None) & filters.me))
+    M2.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
+    M2.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
 
 if M3:
-    M3.add_handler(MessageHandler(pyrone, filters.command(["T3RI", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
-    M3.add_handler(MessageHandler(restart, filters.command(["XD", "FARAR", "STOP", "FUCKED"], prefixes=None) & filters.me))
+    M3.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
+    M3.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
 
 if M4:
-    M4.add_handler(MessageHandler(pyrone, filters.command(["T3RI", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
-    M4.add_handler(MessageHandler(restart, filters.command(["XD", "FARAR", "STOP", "FUCKED"], prefixes=None) & filters.me))
+    M4.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
+    M4.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
 
 if M5:
-    M5.add_handler(MessageHandler(pyrone, filters.command(["T3RI", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
-    M5.add_handler(MessageHandler(restart, filters.command(["XD", "FARAR", "STOP", "FUCKED"], prefixes=None) & filters.me))
+    M5.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
+    M5.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
 
 
 # STARTING CLIENTS
