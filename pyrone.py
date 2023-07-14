@@ -21,40 +21,41 @@ SESSION5 = getenv('SESSION5', default=None)
 # ------------- CLIENTS -------------
 
 if SESSION1:
-    M1 = Client(SESSION1, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+    M1 = Client(SESSION1, api_id=23330007, api_hash="59b6d22c9fd9538b0088fb8453234bff")
 else:
     M1 = None
 
 if SESSION2:
-    M2 = Client(SESSION2, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+    M2 = Client(SESSION2, api_id=23330007, api_hash="59b6d22c9fd9538b0088fb8453234bff")
 else:
     M2 = None
 
 if SESSION3:
-    M3 = Client(SESSION3, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+    M3 = Client(SESSION3, api_id=23330007, api_hash="59b6d22c9fd9538b0088fb8453234bff")
 else:
     M3 = None
 
 if SESSION4:
-    M4 = Client(SESSION4, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+    M4 = Client(SESSION4, api_id=23330007, api_hash="59b6d22c9fd9538b0088fb8453234bff")
 else:
     M4 = None
 
 if SESSION5:
-    M5 = Client(SESSION5, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+    M5 = Client(SESSION5, api_id=23330007, api_hash="59b6d22c9fd9538b0088fb8453234bff")
 else:
     M5 = None
 
 
-ONE_WORDS = ["TERI", "MAA", "KI", "CHUT", "AJA", "TERI", "MAA", "KI", "CHUT", "FAAD", "DUNGA", "HIJDE", "TERA", "BAAP",
-           "HU", "KIDXX", "SPEED", "PAKAD", "BHEN KE LAUDE", "AA BETA", "AAGYA", "TERI", "MAA ", "CHODNE",
-           "AB", "TERI ", "MAA", "CHUDEGI", "KUTTE", "KI", "TARAH", "BETA", "TERI", "MAA", "KE", "BHOSDE",
-           "ME", "JBL", "KE", "SPEAKER", "DAAL", "KAR", "BASS", "BOOSTED", "SONG", "SUNUNGA", "PURI",
-           "RAAT", "LAGATAR", "TERI", "MAA", "KE", "SATH", "SEX", "KARUNGA🔥", "TERI", "MAA", "KE", "BOOBS",
-           "DABAUNGA","XXX","TERI","MAA","KAA","CHUT","MARU","RANDI","KEE","PILEE","TERI","MAA","KAA","BHOSDAA",
-           "MARU","SUAR","KEE","CHODE","TERI","MAAA","KEEE","NUDES","BECHUNGA","RANDI","KEE","PILLE","TERI","MAAA",
+ONE_WORDS = ["MADARCHOD", "TUJHE", "PELTA", "HU", "BAAP", "SE", "BHIR", "GYA NA", "AB TERI", "MAA", "CHODTA HU",
+             "TERI", "MAA", "KI", "CHUT", "MEIN", "MERA", "LUND", "TERI", "MAA", "KI", "CHUT", "FAAD", "DUNGA", "HIJDE", "TERA", "BAAP",
+           "HU", "KIDXX", "SPEED", "PAKAD", "BHEN KE LAUDE", "TERI MAA", "KI CHUT", "MEIN", "KUTTE KI", "TATTI",
+           "AB", "TERI ", "MAA", "KO", "KUTTIYA", "KI", "TARAH", "CHODUNGA", "TERI", "MAA", "KE", "BHOSDE",
+           "MEIN", "JBL", "KE", "SPEAKER", "DAAL", "KAR", "BASS", "BOOSTED", "SONG", "SUNUNGA", "PURI",
+           "RAAT", "LAGATAR", "TERI", "BHEN", "KE", "SATH", "SEX", "KARUNGA🔥", "TERI", "BHEN", "KE", "BOOBS",
+           "DABAUNGA","MADARCHOD","TERI","MAA","KAA","CHUT","MARU","RANDI","KEE","PILEE","TERI","MAA","KAA","BHOSDAA",
+           "MARU","SUAR","KEE","CHODE","TERI","BHEN","KEEE","NUDES","BECHUNGA","RANDI","KEE","PILLE","TERI","MAAA",
            "CHODU","SUAR","KEEE","PILEE","TERIII","MAAA","DAILYY","CHUDTTI","HAII","MADHARCHOD","AUKAT","BANAA",
-           "LODE","TERAA","BAAP","HUU","TERI","GFF","KAA","BHOSDAA","MARUU","MADHARCHOD","TERI ","NANAI","KAA",
+           "LODE","TERAA","BAAP","HUU","TERI","GFF","KAA","BHOSDAA","MARUU","MADHARCHOD","TERI ","NANI","KAA",
            "CHUTT","MARU","TERII","BEHEN","KAAA","BHOSDAA","MARU","RANDII","KEEE","CHODE","TERI","DADI","KAAA","BOOR",
            "GARAM","KARR","TERE","PUREE","KHANDAN","KOOO","CHODUNGAA","BAAP","SEE","BAKCHODI","KAREGAA","SUARR",
            "KEEE","PILLEE","NAAK","MEEE","NETAA","BAAP","KOO","KABHII","NAAH","BOLNAA","BETAA","CHUSS","LEEE",
