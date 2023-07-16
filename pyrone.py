@@ -46,7 +46,7 @@ else:
     M5 = None
 
 
-ONE_WORDS = ["MADARCHOD", "TUJHE", "PELTA", "HU", "BAAP", "SE", "BHIR", "GYA NA", "AB TERI", "MAA", "CHODTA HU",
+ONE_WORDS = ["MADARCHODD", "TUJHE", "PELTA", "HU", "BAAP", "SE", "BHIR", "GYA NA", "AB TERI", "MAA", "CHODTA HU",
              "TERI", "MAA", "KI", "CHUT", "MEIN", "MERA", "LUND", "AUR", "TERI", "MAA", "KI", "CHUT", "FAAD", "DUNGA", "CHUTIYE", "TERA", "BAAP",
            "HU", "MAI", "BACHE", "SPEED", "PAKAD", "BHEN KE LAUDE", "TERI MAA", "KI CHUT", "MEIN", "KUTTE KI", "TATTI",
            "MAI AB", "TERI ", "MAA", "KO", "KUTTIYA", "KI", "TARAH", "CHODUNGA", "TERI", "MAA", "KE", "BHOSDE",
@@ -90,7 +90,7 @@ async def pyrone(client: Client, message: Message):
         for word in ONE_WORDS:
             await client.send_chat_action(chat_id, "typing")
             await client.send_message(chat_id, word, reply_to_message_id=ruser)
-            await asyncio.sleep(0.3)
+            await asyncio.sleep(0.1)
     except FloodWait:
         pass
 
